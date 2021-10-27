@@ -1,0 +1,16 @@
+.home{
+    /* max-width: 1200px; */
+    margin: 0 auto;
+}
+.home__image{
+    width: 100%;
+    mask-image:linear-gradient(rgb(0,0,0,1), rgb(0,0,0,1), transparent);
+    z-index:-1;
+    margin-bottom: -300px;
+}
+.home__row{
+    display: flex;
+    z-index: 1;
+    margin: 0 5px;
+    max-width: 100%;
+}
